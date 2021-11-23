@@ -15,8 +15,8 @@ Ciudad= "Oaxaca de Juárez"
 
 //-----------------Quiz 2------------------//
 //Crear un array con 5 valores numericos y sumar todos esos valores accediendolos mediante las posiciones
-var precios = [5,10,20,40]
-var sumatoria = precios[0]+ precios[3]+precios[2]
+var precios = [5,10,20,40,50]
+var sumatoria = precios[0]+ precios[1] + precios[2] + precios[3] + precios[4]
 
 //-----------------Quiz 3------------------//
 //Crear un objeto de nombre user con las propiedades 
@@ -41,11 +41,12 @@ var nombreCompleto = user.nombre + " " + user.apellidos
 var personas = [
     {nombre: "Kevin", email:"kevinsal.casas@gmail.com", edad:23},
     {nombre: "Juan", email:"juan@gmail.com", edad:28},
-    {nombre: "Pedro", email:"pedro.alcocer@gmail.com", edad:35}
+    {nombre: "Pedro", email:"pedro.alcocer@gmail.com", edad:35},
+    {nombre: "Maria", email:"mary@gmail.com", edad:35},
+    {nombre: "julia", email:"julia@gmail.com", edad:35}
 ]
  //2. Crear un arreglo de nombre correos y guardar todos los correos 
  //que existan en el arreglo del primer paso(debes de acceder a los 
  //correos apoyandote en lo aprendido anteriormente).
 
- var correos = [personas[0].email,personas[1].email,personas[2].email]
- 
+ var correos = [personas[0].email,personas[1].email,personas[2].email,personas[3].email,personas[4].email]
