@@ -12,3 +12,5 @@ Nombre= "Kevin"
 Apellidos= "Salvador Casas"
 Edad = 24
 Ciudad= "Oaxaca de Juárez"
+
+//-----------------Quiz 2------------------//

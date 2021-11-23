@@ -15,4 +15,12 @@ var apellodo ="Pérez"
 var n1="50"
 var n2 ="20"
 //n1+n2 = 5020 concactenado
-
+//----------------------Clase 3: Arreglos---------------//
+var numero=60
+var nombre = "Erik"
+//Arrays
+var edades = [60,45,80,90]
+var nombres =["Erik","Luis","Pedro"]
+//Array con array
+var arreglo =["Erik", 50, [24,20], 4]
+//-----Clase 4: Accediendo a los valores de un array----//
