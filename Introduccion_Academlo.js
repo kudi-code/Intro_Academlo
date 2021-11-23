@@ -9,7 +9,7 @@ var total = precioProducto1 + precioProducto2
 
 //Variables de tipo string
 var nombre= "Erik" 
-var apellodo ="Pérez"
+var apellido ="Pérez"
 // nombre + apellido = concatenación
 
 var n1="50"
@@ -24,3 +24,9 @@ var nombres =["Erik","Luis","Pedro"]
 //Array con array
 var arreglo =["Erik", 50, [24,20], 4]
 //-----Clase 4: Accediendo a los valores de un array----//
+//Valores de un Array inicia en 0
+edades[0] //Del 0 al 3
+nombres[1] //"Luis"
+var texto = "En el arreglo Nombres tenemos a: " + nombres[0] + " , "+nombres[1] + " y "+nombres[2]
+
+
