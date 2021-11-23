@@ -33,3 +33,19 @@ user = {
 
 var nombreCompleto = user.nombre + " " + user.apellidos
 
+//-----------------Quiz 4------------------//
+//1.Crear un arreglo con 5 objetos, cada uno 
+//de estos objetos debe de tener las propiedades 
+//nombre, email y edad, con valores asignados por ti.
+
+var personas = [
+    {nombre: "Kevin", email:"kevinsal.casas@gmail.com", edad:23},
+    {nombre: "Juan", email:"juan@gmail.com", edad:28},
+    {nombre: "Pedro", email:"pedro.alcocer@gmail.com", edad:35}
+]
+ //2. Crear un arreglo de nombre correos y guardar todos los correos 
+ //que existan en el arreglo del primer paso(debes de acceder a los 
+ //correos apoyandote en lo aprendido anteriormente).
+
+ var correos = [personas[0].email,personas[1].email,personas[2].email]
+ 
