@@ -42,3 +42,15 @@ var coche ={
     modelo:"Mustang"
 }
 var texto2= "El texto es de color: " + coche.color
+
+//-----------Clase 10: Objetos dentro de array---//
+var users =[
+    {nombre: "Erik", correo: "erik@academlo.com"},
+    {nombre: "Luis", correo: "luis@academlo.com"}
+]
+users[0]
+users[0].correo //Acceder a erik@academlo.com
+var texto3 = "El primer usuario de users es: " + users[0].nombre
+texto3
+var texto3_1 = "El  correo del segundo usuario es: " + users[1].correo
+texto3_1
